@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = DeviseDateRestrictable::VERSION
 
   gem.add_dependency( 'devise', '~> 4.0' )
-  gem.add_dependency( 'rails',  '~> 5.1' )
+  gem.add_dependency( 'rails',  '>= 5.1' )
 
   gem.add_development_dependency( 'bundler', '~> 1.16' )
   gem.add_development_dependency( 'sqlite3', '~> 1.3', '>= 1.3.13' )
